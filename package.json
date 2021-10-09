@@ -1,0 +1,31 @@
+{
+  "name": "thunderbird-web-ext-types",
+  "version": "2.0.0",
+  "description": "TypeScript type definitions for MailExtensions",
+  "main": "index.js",
+  "author": "zephvr",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-xo": "^0.39.0",
+    "eslint-config-xo-typescript": "^0.45.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-no-unsanitized": "^3.1.5",
+    "eslint-plugin-unicorn": "^36.0.0",
+    "node-fetch": "^3.0.0",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "volta": {
+    "node": "16.11.0",
+    "yarn": "1.22.15"
+  },
+  "scripts": {
+    "test": "ts-node ./index.ts"
+  }
+}
